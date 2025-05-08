@@ -29,10 +29,10 @@ jobs:
         python -m pip install .[default]
 
     - name: Reproduce BARO performance on the Online Boutique dataset 
-      run: python main-ase.py --method baro --dataset re1-tt
+      run: python main-ase.py --method baro --dataset re1_tt
 
     - name: Reproduce N-sigma performance on the Online Boutique dataset 
-      run: python main-ase.py --method nsigma --dataset re1-tt
+      run: python main-ase.py --method nsigma --dataset re1_tt
 
     - name: Reproduce CIRCA performance on the Online Boutique dataset 
-      run: python main-ase.py --method circa --dataset re1-tt
+      run: python main-ase.py --method circa --dataset re1_tt
