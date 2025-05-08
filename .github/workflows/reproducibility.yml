@@ -30,3 +30,9 @@ jobs:
 
     - name: Reproduce BARO performance on the Online Boutique dataset 
       run: python main-ase.py --method baro --dataset online-boutique
+
+    - name: Reproduce N-sigma performance on the Online Boutique dataset 
+      run: python main-ase.py --method nsigma --dataset online-boutique
+
+    - name: Reproduce CIRCA performance on the Online Boutique dataset 
+      run: python main-ase.py --method circa --dataset online-boutique
